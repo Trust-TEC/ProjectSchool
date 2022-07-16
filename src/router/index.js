@@ -16,12 +16,14 @@ import Follower from '../components/Userprofile/Follower.vue'
 import Following from '../components/Userprofile/Following.vue'
 import AccountSetting from '../components/Userprofile/AccountSetting.vue'
 import EditProfile from '../components/Userprofile/EditProfile.vue'
+
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
   },
+  
   {
     path: '/Log1',
     name: 'Log1',

@@ -11,17 +11,21 @@
                         <!--<i class="fa-solid fa-magnifying-glass "></i>-->
                     </div>
                     <router-link to="/Tittle">
-                    <a href="" class="mr-10 pl-20"><button class=" bg-indigo-600 text-white mt-2 px-4 rounded-md hover:bg-sky-700 text-lg float-left"><p>Create</p></button></a>
+                    <a href="" class="mr-10 pl-30"><button class=" bg-indigo-600 text-white mt-2 px-4 rounded-md hover:bg-sky-700 text-lg float-center"><p>Create</p></button></a>
                     </router-link>
                 </div>
             </div>
             </div>
         </nav>
         <!--***************-->
-        <div class="flex px-10">
+        <span class="absolute md:hidden left-2 top-1.5 cursor-pointer text-4xl">
+                
+                 <i class="fas fa-bars"></i>
 
-            <div class=" w-1/3 flex fix">
-                <div class="mr-5  py-9 justify-items-end pl-16">
+            </span>
+        <div class="flex px-10">
+            <div class=" hidden sm:flex flex-1 justify-start w-1/3 fix">
+                <div class="  md:w-auto w-full top-14 duration-100 ease-in mr-5  py-9 justify-items-end pl-16">
                     <div class="flex mt-5 pl-5">
                         <div class="flex-none">
                             <div class=" px-2"><i class="fa-solid fa-podcast text-3xl"></i></div>
@@ -77,9 +81,13 @@
                     </div>
             <!------>
                 </div>
+
+                <div class="flex sm:hidden flex-1 justify-start">
+                    <i class="text-2xl fas fa-bars"></i>
+                </div>
             </div>
-            <div class="w-2/3 ">
-                <div class="flex mt-2 font-mono">
+            <div class="w-2/3">
+                <div class="hidden sm:flex flex-1 justify-start w-1/3 fix mt-2">
                     <h4 class=" font-bold text-whit px-4 py-1 rounded-2xl hover:bg-gray-100 ">Home Page</h4>
                     <h4 class=" font-bold pl-4 text-whit px-3 py-1 rounded-2xl hover:bg-gray-100">Recommend</h4>
                     <h4 class=" font-bold pl-4 text-whit px-3 py-1 rounded-2xl hover:bg-gray-100">Top Read</h4>
@@ -87,8 +95,8 @@
                 <!--################################-->
 
                 <div class="my-1 mt-2">
-                <div class=" p-2 border-2 rounded-2xl bg-gray-50">
-                   <div class="flex justify-between ">
+                <div class=" p-2 border-2 rounded-2xl bg-gray-50" style="width: 550px;">
+                   <div class=" flex justify-between ">
                         <div class="flex ml-5">
                              <div>
                                 <img class="w-16 h-16 bg-red rounded-full" :src="perlog" alt="">
@@ -108,7 +116,7 @@
                    </div>
                    <div class=" mx-20 border-2 rounded-2xl">
                        <div class="text-center ">
-                           <img  :src="dtc" alt="" class=" w-full   rounded-lg">    
+                           <img  :src="dtc" alt="" class=" w-full   rounded-lg">      
                        </div>
                     
                    </div>
@@ -124,7 +132,7 @@
                    
                 </div>
             <!--################################-->
-                <div class=" p-2 border-2 mt-2 rounded-2xl bg-gray-50">
+                <div class=" p-2 border-2 mt-2 rounded-2xl bg-gray-50" style="width: 550px;">
                    <div class="flex justify-between ">
                         <div class="flex ml-5">
                              <div>
@@ -165,7 +173,7 @@
             </div>
             
             <!--Right bar-->
-            <div class="text-center w-1/3 p-6">
+            <div class="hidden sm:flex flex-1 text-center w-1/3 p-6">
                     <!--Tage user-->
                     <div class=" bg-gray-100 rounded-2xl h-full">
                     <div class=" mt-2 bold text-2xl">

@@ -4,11 +4,11 @@
         <div class="">
             <!--Text header-->
             <div class="text-[#5b21b6] pr-15 pt-10 bold font-monomt-3 font-bold text-3xl">
-            <h2 class="ml-10">Reab Rob</h2>
+                <h2 class="ml-10">Reab Rob</h2>
             </div>
             <!--Write area-->
             <div class="flex items-center justify-center flex-col">
-                <div class="bg-blue p-5 rounded-lg w-2/5">
+                <div class="bg-blue p-5 rounded-lg w-2/5" style="width:550px;">
                     <h2 class="text-left ml-1 text-blue text-xl">Create Your Post</h2>
                 <div class=" border-2 rounded-md"> 
                     <div class=" bg-white"><textarea aria-label="Tittle" class=" bg-white text-2xl text-bold font-serif py-3 px-5 w-full outline-none rounded" placeholder="Write your tittle..."></textarea></div>

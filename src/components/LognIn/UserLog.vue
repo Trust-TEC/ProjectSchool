@@ -1,7 +1,8 @@
 <template>
+
     <div>
-        <div class="min-h-screen flex items-center justify-center  text-bluck flex-col mb-3">
-            <div class="bg-white p-5 px-10 rounded-lg shadow-2xl w-1/3 mt-10">
+        <div class="min-h-screen  mx-auto  flex items-center justify-center  text-bluck flex-col mb-3">
+            <div class="bg-white p-10 px-5 rounded-lg shadow-2xl mt-10">
                 <h2 class=" text-bold text-3xl text-blue mb-8 font-bold text-indigo-600 text-center">LogIn</h2>
                 <form action="" class="space-y-5">
                <div class=" mt-2 mb-2">
@@ -29,20 +30,20 @@
            </form>
         </div>
         
-        <div class="w-1/3 flex flex-col items-center">
-                <button class=" w-2/4 p-1 bg-indigo-300 text-white hover:bg-indigo-600 rounded-full text-lg mt-2 cursor-pointer text-center">
+        <div class="w-2/5 flex flex-col items-center">
+                <button class=" w-2/3 p-1 bg-indigo-300 text-white hover:bg-indigo-600 rounded-full text-lg mt-2 cursor-pointer text-center">
                     <div class="flex flex-row items-center ">
                         <div class=" basis-1/4"><i class="fa-brands fa-google text-xl float-left pl-3"></i></div>
                         <div class=" basis-1/2">Google</div>
                     </div>
                 </button>
-                <button class="w-2/4 p-1 bg-indigo-300 text-white hover:bg-indigo-600 rounded-full text-lg mt-2 cursor-pointer text-center">
+                <button class="w-2/3 p-1 bg-indigo-300 text-white hover:bg-indigo-600 rounded-full text-lg mt-2 cursor-pointer text-center">
                     <div class="flex flex-row items-center">
                         <div class=" basis-1/4"><i class="fa-brands fa-facebook text-xl float-left pl-3"></i></div>
                         <div class=" basis-1/2">Facebook</div>
                     </div>
                 </button>
-                <button class="w-2/4 p-1 bg-indigo-300 text-white hover:bg-indigo-600 rounded-full text-lg mt-2 cursor-pointer text-center">
+                <button class="w-2/3 p-1 bg-indigo-300 text-white hover:bg-indigo-600 rounded-full text-lg mt-2 cursor-pointer text-center">
                     <div class="flex flex-row items-center">
                         <div class="basis-1/4"><i class="fa-brands fa-github text float-left pl-3"></i></div>
                         <div class="basis-1/2">Git hub</div>

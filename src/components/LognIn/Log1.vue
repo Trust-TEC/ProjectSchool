@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="min-h-screen flex items-center justify-center bg-blue text-bluck flex-col">
-            <div class="bg-white p-10 rounded shadow-2xl w-1/3">
+            <div class="bg-white p-5 rounded shadow-2xl">
                 <h2 class="text-center text-2xl mb-3 text-indigo-500 font-bold">Date of birth</h2>
                 <div class="flex justify-between gap-2">
 

@@ -1,7 +1,7 @@
 <template>
    <div>
       <div class="min-h-screen flex items-center justify-center bg-blue text-bluck flex-col">
-         <div class="bg-white p-10 rounded shadow-2xl w-1/3">
+         <div class="bg-white p-10 rounded shadow-2xl ">
             <div class=" flex flex-col space-y-3">
                <div class=" ">
                   <h2>Engineering</h2>

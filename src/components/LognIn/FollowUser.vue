@@ -1,7 +1,7 @@
 <template>
    <div>
       <div class="min-h-screen flex items-center justify-center bg-blue text-bluck flex-col">
-            <div class="bg-white p-10 rounded shadow-2xl w-1/3">
+            <div class="bg-white p-10 rounded shadow-2xl ">
                   <h1 class=" text-center font-bold text-3xs">Top User </h1>
                      
                                  <div class="  bg-gray-100 rounded-lg  flex flex-rows items-center justify-between my-5 p-3">

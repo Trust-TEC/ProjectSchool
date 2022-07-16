@@ -1,7 +1,7 @@
 <template>
 <div id="SingIn">
-    <div class="min-h-screen flex items-center justify-center bg-blue text-bluck flex-col">
-            <div class="bg-white p-10 rounded-lg shadow-2xl w-1/3">
+    <div class="min-h-screen max-auto flex items-center justify-center bg-blue text-bluck flex-col">
+            <div class="bg-white p-5 rounded-lg shadow-2xl "> 
                 <h2 class=" text-2xl mb-8 font-bold text-indigo-600 text-center">Create Your Account</h2>
                 <form action="" class="space-y-5">
                 <div class="flex flex-row">
