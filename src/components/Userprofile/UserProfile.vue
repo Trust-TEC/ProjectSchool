@@ -74,17 +74,17 @@
 
             <!--**********************-->    
                 <div class="grid grid-cols-3 gap-9 mt-5">
-                        <div class=" items-center h-72 border-2 justify-center flex mt-0.10 mb-0.5 p-2 rounded-sm w-full flex-col">
-                                <h2>Picture</h2>
+                        <div class=" items-center h-72 border justify-center flex mt-0.10 mb-0.5 p-1 w-full flex-col">
+                                 <img  :src="dtc" alt="" class="">
                         </div>
-                        <div class=" items-center h-72 border-2 justify-center flex mt-0.10 mb-0.5 p-2 rounded-sm w-full flex-col">
-                                <h2>Picture</h2>
+                        <div class=" items-center h-72  justify-center flex mt-0.10 mb-0.5 p-1 w-full flex-col">
+                                 <img  :src="perlog" alt="" class="">
                         </div>
-                        <div class=" items-center h-72  border-2 justify-center flex mt-0.10 mb-0.5 p-2 rounded-sm w-full flex-col">
-                                <h2>Picture</h2>
+                        <div class=" items-center h-72 justify-center flex mt-0.10 mb-0.5 p-1 w-full flex-col">
+                                 <img  :src="avd" alt="" class="">
                         </div>
-                        <div class=" items-center h-72 border-2 justify-center flex mt-0.10 mb-0.5 p-2 rounded-sm w-full flex-col">
-                                <h2>Picture</h2>
+                        <div class=" items-center border h-72  justify-center flex mt-0.10 mb-0.5 p-1 w-full flex-col">
+                                <img  :src="puser" alt="" class="h-full">
                         </div>
                         <div class=" items-center h-72 border-2 justify-center flex mt-0.10 mb-0.5 p-2 rounded-sm w-full flex-col">
                                 <h2>Picture</h2>

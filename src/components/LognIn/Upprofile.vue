@@ -18,10 +18,6 @@
                         </a>
                      </div>
                </div>
-
-
-
-                
                <!--Back and next-->  
                  <div class=" float-right mt-10 pr-5">
                     <router-link to="/followtage">

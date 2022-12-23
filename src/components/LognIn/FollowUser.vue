@@ -32,7 +32,6 @@
                                  </div>
                                 </div>
                             </div>
-                        
                         <div class=" rounded-2xl bg-gray-200 flex flex-rows items-center justify-between m-1 p-3 w-96">
                             <div class=" flex ">
                                 <div class="shrink-0">
@@ -50,8 +49,6 @@
                                 <button class="w-20 h-8 p-1 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full text-sm cursor-pointer">Follw</button>
                             </div>
                         </div>
-
-
                         <div class=" rounded-2xl bg-gray-200 flex flex-rows items-center justify-between m-1 p-3 w-96">
                             <div class=" flex ">
                                 <div class="shrink-0">

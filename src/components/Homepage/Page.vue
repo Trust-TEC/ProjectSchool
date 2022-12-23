@@ -26,7 +26,7 @@
                 <div class="mr-5  py-9 justify-items-end pl-16 fixed mt-5">
                     <div class="flex mt-5 pl-5">
                         <div class="flex-none">
-                            <div class=" px-2"><i class="fa-solid fa-podcast text-3xl"></i></div>
+                            <div class=" px-2"><i class="fa-solid  text-gray-600 hover:text-gray-800 fa-podcast teext text-3xl"></i></div>
                         </div>
                         <div class="flex-1 font-bold text-2xl pl-4 font-mono mb-2">
                             <h2>Podcast</h2>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="flex mt-9 pl-5">
                         <div class="flex-none">
-                            <div class=" px-1"><i class="fa-solid fa-user-group text-3xl"></i></div>
+                            <div class=" px-1"><i class="fa-solid text-gray-600 hover:text-gray-800 fa-user-group text-3xl"></i></div>
                         </div>
                         <div class="flex-1 font-bold text-2xl pl-4 font-mono mb-2">
                             <h2>Community</h2>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="flex mt-9 pl-5">
                         <div class="flex-none">
-                            <div class=" px-2"><i class="fa-solid fa-bell text-3xl"></i></div>
+                            <div class=" px-2"><i class="fa-solid text-gray-600 hover:text-gray-800 fa-bell text-3xl"></i></div>
                         </div>
                         <div class="flex-1 font-bold text-2xl pl-4 font-mono mb-2">
                             <h2>Notification</h2>
@@ -51,7 +51,7 @@
 
                     <div class="flex mt-9 pl-5">
                         <div class="flex-none">
-                            <div class="px-2"><i class="fa-solid fa-message text-3xl"></i></div>
+                            <div class="px-2"><i class="fa-solid text-gray-600 hover:text-gray-800 fa-message text-3xl"></i></div>
                         </div>
                         <div class="flex-1 font-bold text-2xl pl-4 font-mono mb-2">
                             <h2>Message</h2>
@@ -60,7 +60,7 @@
 
                     <div class="flex mt-9 pl-5">
                         <div class="flex-none">
-                            <div class=" px-2"><i class="fa-solid fa-bookmark text-3xl"></i></div>
+                            <div class=" px-2"><i class="fa-solid text-gray-600 hover:text-gray-800 fa-bookmark text-3xl"></i></div>
                         </div>
                         <div class="flex-1 font-bold text-2xl pl-4 font-mono mb-2">
                             <h2>bookmart</h2>
@@ -69,7 +69,7 @@
 
                     <div class="flex mt-9 pl-5">
                         <div class="flex-none">
-                            <div class=" px-2"><i class="fa-solid fa-user text-3xl"></i></div>
+                            <div class=" px-2"><i class="fa-solid  text-gray-600 hover:text-gray-800 fa-user text-3xl"></i></div>
                         </div>
                         <router-link to="/Profile">
                         <div class="flex-1 font-bold text-2xl pl-4 font-mono mb-2">
